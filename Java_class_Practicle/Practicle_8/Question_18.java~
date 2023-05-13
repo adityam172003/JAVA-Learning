@@ -1,0 +1,40 @@
+
+
+class Myclass implements Runnable
+{
+	int val;
+	
+	public Myclass()
+	{	
+		val=true;
+	}
+	
+	
+	public void run()
+	{
+		while(val)
+		{
+			System.out.println("thread");
+		}
+	}
+}
+
+
+
+class Question_18
+{
+
+	public static void main(String [] args)throws Exception
+	{
+		Myclass m= new Myclass();
+		
+		Thread  r= new Thread(m);
+		
+		r.start();
+		
+		Thread.sleep(5000);
+		m.val=false;
+		
+		
+	}
+}

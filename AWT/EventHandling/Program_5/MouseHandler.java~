@@ -1,0 +1,24 @@
+
+import java.awt.event.*;
+
+
+class MouseHandler extends MouseAdapter
+{
+	MainFrame fr;
+	MouseHandler(MainFrame f)
+	{	
+		fr =f;
+	}
+	
+	public void mouseClicked(MouseEvent t)
+	{
+		if(fr.val)
+		{
+			fr.tEnd();
+		}
+		else
+		{
+			fr.tStart();
+		}
+	}
+}

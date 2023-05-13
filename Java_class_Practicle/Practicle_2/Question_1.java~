@@ -1,0 +1,39 @@
+
+import java.util.Scanner;
+class Question_1
+{
+	/*
+	1.Keep scanning a number from user until user enters 0.Print addition of squares of even numbers only.
+	
+	*/
+	public static void main(String [] xyz)
+	{
+		Scanner sc = new Scanner(System.in);
+		int ans=0;
+		System.out.println("Keep entering the numbers to stop enter 0");
+		while(true)
+		{
+			int n ;
+			n = sc.nextInt();
+			if(n==0)
+			{
+				break;
+			}
+			
+			if(n%2==0)
+			{
+				ans = ans+ n*n;
+			}
+			
+			
+			
+		
+		}
+		
+		System.out.println("Sum of Squares of even numbers = " +ans);
+	
+	}
+
+
+
+}

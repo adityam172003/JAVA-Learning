@@ -1,0 +1,89 @@
+import java.util.*;
+
+
+class Array
+{
+	public int arr[][];
+	
+	public Array()
+	{
+		arr=new int[4][5];
+		
+	}
+	
+	
+	
+	void scanArray()
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("Enter the  numbers  in the  array : ");
+		
+		for(int x[] :arr)
+		{	
+			for(int i =0;i<x.length;i++)
+			{
+				x[i] = sc.nextInt();
+			}
+		}
+		
+	}
+	
+	void  Csum()
+	{
+		
+		for(int x[] :arr)
+		{	int s =0;
+			for(int y :x)
+			{
+				s=s+y;
+			}
+			
+			System.out.println(s);
+		}
+		
+		
+	}
+	
+	void Rsum()
+	{
+		for(int  i=0;i<arr[0].length;i++)
+		{	int s=0;
+			for(int j=0;i<arr.length;j++)
+			{
+			
+				s=s+arr[j][i];
+			}
+			
+			System.out.println(s);
+		
+		}
+	}
+
+
+}
+
+
+class Question_25
+{
+	public static void main(String args[])
+	{
+		Array  ar = new Array();
+		ar.scanArray();
+		ar.Csum();
+		ar.Rsum();
+		
+		
+
+	
+	
+	
+	}
+
+
+
+}
+
+

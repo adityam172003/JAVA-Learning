@@ -1,0 +1,74 @@
+1.WAP to create a window.Draw a vertical line and a horizontal line
+which create a 90 degree angle.
+
+2.Create a frame and draw a red filled rectangle and a hollow blue circle.
+
+3.Create a frame and draw a square of 400X400 which should include another 
+square of 200X200.
+
+4.WAP to draw a string "JAVA is interesting now" having bold fonts and fontsize 20.
+
+5.WAP to understand mouse click events.
+
+6.WAP to understand mouse motion events.
+
+7.Create a frame containing string.On each mouse click,your string should display
+co-ordinates of mouse click.
+If mouse is clicked at 250,300 then string on frame should be as follows =
+"Mouse clicked at (230,300) position"
+
+8.Create a frame.On left click print message "LEFT BUTTON CLICKED".
+On right click print message "RIGHT BUTTON CLICKED".
+
+
+9.Create a frame.On left click of mouse,draw a blue circle on frame.
+On right click,draw a red circle on frame.(awtproject.Program3)
+
+10.Draw a square between 2 clicks on frame.(awtproject.Program4)
+
+11.Scan radius and x,y co-ordinates from user.Draw the circle which is filled with red color.
+No mouse click necessary.(awtproject.Program5)
+
+
+12.Scan radius from user.Draw circle of given radius on frame exactly at center.
+
+13.Keep scanning radius from user.When user presses enter key after giving radius,draw 
+circle at center.(awtproject.Program6)
+
+
+
+
+
+
+
+
+
+
+
+=====================================
+	
+//============================================================================================================
+
+14.On first mouse click on frame, Start printing value of x on console .Stop printing on next click on frame.
+(awtproject.Program7)
+
+15.Create a circle on frame.Move it from left to right using thread.
+(awtproject.Program8)
+
+16.Start moving circle on first click.Stop circle on next click.Start on next click.
+So one click starts circle and next will stop it.(awtproject.Program9)
+
+17.Modify your program9 so that if circle goes out of window,it should
+come from left of window.(awtproject.Program10)
+
+18.WAP in which left click of mouse on frame will start thread and right click will stop thread.
+(awtproject.Program11)
+
+19.Create a moving string.When string crosses right side of window,it should start from left again.
+(awtproject.Program12)
+
+20.WAP to create a moving banner om frame.
+(awtproject.Program12)
+
+21.Create 2 moving circles.One from left to right and another from right to left.
+(awtproject.Program12)

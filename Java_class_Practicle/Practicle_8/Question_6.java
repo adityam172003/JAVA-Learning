@@ -1,0 +1,75 @@
+import java.util.Scanner;
+/*
+	WAP to generate following exceptions and handle them.
+	-inputmismatch exception
+	-numberformat exception
+	-arrayindexoutofbounds exception
+
+*/
+
+
+class Question_6
+{
+
+	public static void main(String []args)
+	{
+		int a;
+		String s;
+		int arr[] = new int[1];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//  InputMismatchException
+		try
+		{
+			
+		System.out.println("Enter the name =:");
+		a =sc.nextInt();
+		
+			
+		}
+		catch(Exception i)
+		{
+			System.out.println(i);
+		}	
+		
+		//  ArithmeticExecption
+		try
+		{
+			System.out.println(10/0);
+		}
+		catch(ArithmeticException ae)
+		{
+			
+			System.out.println("2"+ae);
+		}
+		
+		
+		// NumberFormatException
+		try
+		{
+			s = sc.next();
+			int b = Integer.parseInt(s);
+			System.out.println(b);
+		}
+		catch(NumberFormatException p)
+		{
+			System.out.println(p);
+		}
+		System.out.println("main ends");
+		
+		
+		// ArrayIndexOutOfBound excetion 
+		
+		try
+		{
+		int aaa =arr[10];
+		}	
+		catch(ArrayIndexOutOfBoundsException pq)
+		{
+		
+		System.out.println(" "+pq);
+		}	
+	}
+}
+

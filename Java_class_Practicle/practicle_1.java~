@@ -1,0 +1,70 @@
+
+import java.util.Scanner;
+
+class Practicle_1
+{
+	/*
+		Q 1 ] 
+		
+		1.Scan an year from user.Check if it is leap or not.
+		Given year is leap year if it is multiple of 100 and multiple of 400.
+		Given year is leap year if it not multiple of 100 but multiple of 4.
+		Otherwise it is not a leap year.
+
+	
+	*/
+	
+	public static void main(String args[])
+	{
+		
+		int year;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Year ");
+		year = sc.nextInt();
+		
+		if(year %100 ==0)
+		{
+			if(year%400==0)
+			{
+				System.out.println(year+" is leap year ");
+			}
+			else
+			{
+				System.out.println(year+" is not a leap year ");
+			}
+		
+		}
+		else if (year %4==0)
+		{
+		
+			System.out.println(year+" is leap year ");
+		
+		}
+		else
+		{
+			System.out.println(year+" is not a leap year ");
+		
+		}
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+}

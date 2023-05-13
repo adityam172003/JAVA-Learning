@@ -1,0 +1,51 @@
+1.
+Frame should contain 4 buttons.(Red Green Blue Yellow).
+Change color of Panel according to the button clicked.
+Try event handling for 2 buttons using actionCommand.
+Try event handling using comparison of source buttons.
+You need 2 different ActionListeners here.
+	
+2.
+Create a frame containing 3 check boxes.(Windows,Linux and MacOS).
+Frame contains a label also.Label will contain the text of selected 
+operating systems only.If you deselect any operating system,it should disappear from label.
+Label should show names of OS in the order of users selection.
+e.g. If user selects OS in the sequence Windows,MacOS and Linux,Label should display same sequence.
+
+3.Create a list containing weekdays.Create a choice control containing Months.
+Create a label also on frame.If you select month,label should display month name.
+If you select weekday ,Label should display weekday.You may select multiple
+weekdays at a time.
+
+4.Repeat Que3 using MouseListener interface.
+
+5.Create a close button on frame.On clicking close frame should close.
+But on a click,first ask user if he wants to close or not.
+Ask this on CONSOLE.If user enters "YES" ,close the window,if user enters "NO",
+do not close the window.For any other input , give message wrong input and 
+ask hime to enter "YES" OR "NO".
+Remember,the confirmation is to be done on console.
+(This is not a dialog box code).
+	
+6.Create 2 textfields on frame.One will take only alphabets as input
+and other will take only integers as input.
+
+7.Create 3 text fields on frame.First 2 textfields are for FirstName and LastName.
+Third one is for phone number.Create a button and a lable also.
+On the button click,label should display Name and Phone number.
+Complete the code with all validation.
+-Name text fields should not contain digits.
+-One text field should not contain 2 names
+-phone textfield should contain only numbers.
+-phone textfield should contain maximum 12 digits
+-When you click on submit button ,no any textfield should be empty.
+If empty,ask user to fill that text field.Redirect focus to empty text field.
+(Think how will you give message to user when text field is empty.
+You can use label to give message.The label will display message for 5 seconds only(Thread)).
+
+8.Create a mainframe containingn a button "CLOSE".
+On the click of close button,open a dialog box,which will ask user,"Do you want to close?".
+Dialog box will contain 2 buttons,"YES" and "NO".
+Then close the dialog box using red button at upper right corner.
+Once you do this,try to close mainframe when user clicks "YES" button on dialog box.
+Try all the possible ways you know.

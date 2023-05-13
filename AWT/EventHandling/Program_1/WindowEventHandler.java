@@ -1,0 +1,15 @@
+
+import java.awt.event.*;
+
+
+class MyWindowEvent extends WindowAdapter
+{
+	public void windowClosing(WindowEvent e)
+	{
+		Frame fr = (Frame)e.getSource();
+		
+		fr.dispose();
+	}
+	
+}
+
