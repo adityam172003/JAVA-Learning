@@ -5,7 +5,8 @@ class Operators
 	   System.out.println("This is operators in java");
 	   // 1 ]  arithmatic operators 
 	   /*
-	     here only % operator behave differently as it works with fractional values also 
+	     here only % operator behave differently as it works with fractional values 
+	     also 
 	     rest all are same like c++
 	   */
 	                     // || bydefault the fractional valuse are of type double 
@@ -77,7 +78,7 @@ class Operators
 	      logical & 
 	      logical |
 	      
-	      lofical !
+	      logical !
 	      
 	      
 	      there is the difference in the single & and single | operations 

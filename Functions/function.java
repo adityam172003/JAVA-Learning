@@ -1,4 +1,4 @@
-class Function_1
+ public class Function_1
 {
 	public static void main(String args[])
 	{

@@ -48,6 +48,18 @@ class Wrapper_class
 	
 	   //------------------------------------------------------------------------------------
 	
+	    
+	    
+	    
+	    // Integer 
+	    //        fin =20;  -- it generates an error 
+	Integer i = Integer.valueOf(10);
+	
+        System.out.println(Integer.toBinaryString(135)+ " "+Integer.toBinaryString(Integer.reverseBytes(135))); 
+        System.out.println(Integer.reverse(135)>>>(int)(Math.log(Integer.lowestOneBit(Integer.reverse(135)))/Math.log(2)));
+        
+
+        System.out.println("i = " + i.getClass().getName() );
 	}
 
 
