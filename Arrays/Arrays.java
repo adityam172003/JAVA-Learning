@@ -1,4 +1,39 @@
 
+/*
+		COLLECTIO OF ELEMENTS HAVING SAME DATA TYPES
+		
+		
+		ARRAY IN THE JAVA IS CREATE ONLY AT RUNTIME SO IT IS A 2 STEP PROCESS
+		
+		1 ] DECLARE REFERENCE VARIABLE 
+		
+		2 ] CREATE THE REFERENCE
+		
+		
+		EX:
+		 int[] arr = null; 		1 ] creating the referene variable 
+		 
+		 arr = new int[10]		2] creating the array at runtime it returns the refernce variable
+		 
+		 
+		 that is why the array created in heap and refence is returned 
+		 
+		 
+		 
+		 general 
+		 
+		 data_type[] variable_name = new data_type[size];
+		 
+		 if ve provide -ve size then jvm will generate the exception : NegativeSizeException
+		 
+		 
+
+
+*/
+
+
+
+
 public class Arrays
 {
 	
@@ -18,7 +53,7 @@ public class Arrays
 		// 2 ] short 
 		// 3 ] byte 
 		
-		// only no other data types are allowed other wise we will get comiletime error
+		// only no other data types are allowed other wise we will get compile-time error
 		
 		
 		// it is a liggle to have an array of size 0 ;

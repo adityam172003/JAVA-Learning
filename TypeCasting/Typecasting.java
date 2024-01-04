@@ -3,17 +3,25 @@ class TypeCasting
 {
 	
 	/*
-		Here  We are going to learn about type casting 
+		
 		
 		There are two type of type casting 
 		
-		1 ] Implicit type casting 
-		2 ] Explicit type casting 
+		------------------------------------------------------------
+		1 ] Implicit type casting                                 |
+		                                                                          |
+		2 ] Explicit type casting                                 |
+		------------------------------------------------------------
+		
+		
 			
 		JVM follows two rules while type casting the variable 
 		
 		1 ] Both data types must be compatable with each other 
 		2 ] JVM never allows the type casting which results in loss of value 
+		=========================================================
+		
+		
 		
 		Smaller data types always converted in larger data types 
 		
@@ -60,7 +68,7 @@ class TypeCasting
 			which cause the loss in the value of the variable    
                 */	
 		
-		int p ="compile time error";
+	//	int p ="compile time error";
 		/*
 			Typecasting.java:60: error: incompatible types: String cannot be converted to int
 			int p ="compile time error";
